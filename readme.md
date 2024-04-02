@@ -21,8 +21,8 @@
 開始前，確保你的系統已安裝 Node.js。接著執行以下命令安裝 Jest：
 
 ```bash
-npm init -y
-npm install --save-dev jest
+## 因為已經在 package.json 預設安裝jest 所以只要直接執行以下指令
+npm install
 ## 配置 Jest
 #在你的 `package.json` 中添加 Jest 配置來啟用詳細的輸出：
 "jest": {
